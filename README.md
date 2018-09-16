@@ -1,6 +1,6 @@
-# flutter_navigator
+# Flutter Navigator
 
-A new Flutter project to learn Navigator component. This project contains three Pages each one with a button to navigate away.
+A new Flutter project to learn Navigator component. This project contains three Pages each one with a button to navigate over the app.
 
 ## Getting Started
 
