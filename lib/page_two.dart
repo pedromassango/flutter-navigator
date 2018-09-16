@@ -12,7 +12,10 @@ class _PageTwoState extends State<PageTwo>{
       appBar: new AppBar(title: new Text('Navigator Page 2'),
       backgroundColor: Colors.blue,),
       body: new Center(
-        child: MaterialButton(child: new Text('Start Page 3'),
+        child: MaterialButton(
+          child: new Text('Start Page 3',
+          style: TextStyle(color: Colors.white),
+        ),
           color: Colors.blue,
           onPressed: (){
           Navigator.of(context).pushNamed('/page_three');
